@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C372079165CD1600080160A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C372078165CD1600080160A /* UIKit.framework */; };
+		4C37207B165CD1600080160A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C37207A165CD1600080160A /* Foundation.framework */; };
+		4C37207D165CD1600080160A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C37207C165CD1600080160A /* CoreGraphics.framework */; };
+		4C372083165CD1600080160A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C372081165CD1600080160A /* InfoPlist.strings */; };
+		4C372085165CD1600080160A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C372084165CD1600080160A /* main.m */; };
+		4C372089165CD1600080160A /* ILAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C372088165CD1600080160A /* ILAppDelegate.m */; };
+		4C37208C165CD1600080160A /* ILViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C37208B165CD1600080160A /* ILViewController.m */; };
+		4C37208F165CD1600080160A /* ILViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C37208D165CD1600080160A /* ILViewController.xib */; };
+		4C37209B165CEEB70080160A /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C37209A165CEEB60080160A /* Info.m */; };
+		4C5B98CF1682EACB006F247B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4C5B98CE1682EACB006F247B /* .gitignore */; };
+		4C6745C01675FC2A00C13124 /* ILData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6745BF1675FC2A00C13124 /* ILData.m */; };
+		4C6745C41675FE1000C13124 /* ILDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6745C31675FE1000C13124 /* ILDownloadManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C372074165CD1600080160A /* ImageLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C372078165CD1600080160A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C37207A165CD1600080160A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C37207C165CD1600080160A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C372080165CD1600080160A /* ImageLoader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageLoader-Info.plist"; sourceTree = "<group>"; };
+		4C372082165CD1600080160A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C372084165CD1600080160A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C372086165CD1600080160A /* ImageLoader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageLoader-Prefix.pch"; sourceTree = "<group>"; };
+		4C372087165CD1600080160A /* ILAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILAppDelegate.h; sourceTree = "<group>"; };
+		4C372088165CD1600080160A /* ILAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILAppDelegate.m; sourceTree = "<group>"; };
+		4C37208A165CD1600080160A /* ILViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILViewController.h; sourceTree = "<group>"; };
+		4C37208B165CD1600080160A /* ILViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILViewController.m; sourceTree = "<group>"; };
+		4C37208E165CD1600080160A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ILViewController.xib; sourceTree = "<group>"; };
+		4C372099165CEEB60080160A /* Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Info.h; sourceTree = "<group>"; };
+		4C37209A165CEEB60080160A /* Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Info.m; sourceTree = "<group>"; };
+		4C5B98CE1682EACB006F247B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4C6745BE1675FC2A00C13124 /* ILData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILData.h; sourceTree = "<group>"; };
+		4C6745BF1675FC2A00C13124 /* ILData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILData.m; sourceTree = "<group>"; };
+		4C6745C21675FE1000C13124 /* ILDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDownloadManager.h; sourceTree = "<group>"; };
+		4C6745C31675FE1000C13124 /* ILDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDownloadManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C372071165CD1600080160A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C372079165CD1600080160A /* UIKit.framework in Frameworks */,
+				4C37207B165CD1600080160A /* Foundation.framework in Frameworks */,
+				4C37207D165CD1600080160A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C372069165CD15F0080160A = {
+			isa = PBXGroup;
+			children = (
+				4C5B98CE1682EACB006F247B /* .gitignore */,
+				4C37207E165CD1600080160A /* ImageLoader */,
+				4C372077165CD1600080160A /* Frameworks */,
+				4C372075165CD1600080160A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C372075165CD1600080160A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C372074165CD1600080160A /* ImageLoader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C372077165CD1600080160A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C372078165CD1600080160A /* UIKit.framework */,
+				4C37207A165CD1600080160A /* Foundation.framework */,
+				4C37207C165CD1600080160A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C37207E165CD1600080160A /* ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				4C372087165CD1600080160A /* ILAppDelegate.h */,
+				4C372088165CD1600080160A /* ILAppDelegate.m */,
+				4C37208A165CD1600080160A /* ILViewController.h */,
+				4C37208B165CD1600080160A /* ILViewController.m */,
+				4C37208D165CD1600080160A /* ILViewController.xib */,
+				4C37207F165CD1600080160A /* Supporting Files */,
+				4C372099165CEEB60080160A /* Info.h */,
+				4C37209A165CEEB60080160A /* Info.m */,
+				4C6745BE1675FC2A00C13124 /* ILData.h */,
+				4C6745BF1675FC2A00C13124 /* ILData.m */,
+				4C6745C21675FE1000C13124 /* ILDownloadManager.h */,
+				4C6745C31675FE1000C13124 /* ILDownloadManager.m */,
+			);
+			path = ImageLoader;
+			sourceTree = "<group>";
+		};
+		4C37207F165CD1600080160A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C372080165CD1600080160A /* ImageLoader-Info.plist */,
+				4C372081165CD1600080160A /* InfoPlist.strings */,
+				4C372084165CD1600080160A /* main.m */,
+				4C372086165CD1600080160A /* ImageLoader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C372073165CD1600080160A /* ImageLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C372092165CD1600080160A /* Build configuration list for PBXNativeTarget "ImageLoader" */;
+			buildPhases = (
+				4C372070165CD1600080160A /* Sources */,
+				4C372071165CD1600080160A /* Frameworks */,
+				4C372072165CD1600080160A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageLoader;
+			productName = ImageLoader;
+			productReference = 4C372074165CD1600080160A /* ImageLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C37206B165CD15F0080160A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IL;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "ashim9831@gmail.com";
+			};
+			buildConfigurationList = 4C37206E165CD15F0080160A /* Build configuration list for PBXProject "ImageLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C372069165CD15F0080160A;
+			productRefGroup = 4C372075165CD1600080160A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C372073165CD1600080160A /* ImageLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C372072165CD1600080160A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C372083165CD1600080160A /* InfoPlist.strings in Resources */,
+				4C37208F165CD1600080160A /* ILViewController.xib in Resources */,
+				4C5B98CF1682EACB006F247B /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C372070165CD1600080160A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C372085165CD1600080160A /* main.m in Sources */,
+				4C372089165CD1600080160A /* ILAppDelegate.m in Sources */,
+				4C37208C165CD1600080160A /* ILViewController.m in Sources */,
+				4C37209B165CEEB70080160A /* Info.m in Sources */,
+				4C6745C01675FC2A00C13124 /* ILData.m in Sources */,
+				4C6745C41675FE1000C13124 /* ILDownloadManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C372081165CD1600080160A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C372082165CD1600080160A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C37208D165CD1600080160A /* ILViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C37208E165CD1600080160A /* en */,
+			);
+			name = ILViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C372090165CD1600080160A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C372091165CD1600080160A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C372093165CD1600080160A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageLoader/ImageLoader-Prefix.pch";
+				INFOPLIST_FILE = "ImageLoader/ImageLoader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C372094165CD1600080160A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageLoader/ImageLoader-Prefix.pch";
+				INFOPLIST_FILE = "ImageLoader/ImageLoader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C37206E165CD15F0080160A /* Build configuration list for PBXProject "ImageLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C372090165CD1600080160A /* Debug */,
+				4C372091165CD1600080160A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C372092165CD1600080160A /* Build configuration list for PBXNativeTarget "ImageLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C372093165CD1600080160A /* Debug */,
+				4C372094165CD1600080160A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C37206B165CD15F0080160A /* Project object */;
+}
